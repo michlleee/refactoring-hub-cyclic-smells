@@ -17,11 +17,23 @@ This repository demonstrates common **object-oriented code smells**—specifical
 
 ## 🔍 Code Smells Overview
 
-### Cyclic Dependency
+### Cyclically-Deficient Modularization
 When classes depend on each other in a circular way, making the code harder to test and maintain.
 
-### Hub-like Dependency
+### Hub-like Dependencies
 When one class is connected to many others, becoming a central point that can easily break the system if changed.
+
+---
+
+### 🛠️ Refactoring Techniques Used
+
+- **Extract Method**: Break down long or repetitive code blocks into smaller, reusable methods
+- **Extract Class**: Split large classes with too many responsibilities into smaller, focused ones
+- **Extract Interface**: Not implemented but can be used as a solution for Hub-like dependency
+- **Dependency Inversion**: Depend on abstractions (interfaces), not concrete implementations
+- **Encapsulation**: Hide internal details and expose only what's necessary
+
+These techniques are applied in the refactored versions of both Cyclic and Hub-like dependency problems.
 
 ---
 
