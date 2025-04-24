@@ -15,7 +15,7 @@ This repository demonstrates common **object-oriented code smells**—specifical
 ```
 ---
 
-## Code Smells Overview
+## 🔍 Code Smells Overview
 
 ### Cyclically-Deficient Modularization
 When classes depend on each other in a circular way, making the code harder to test and maintain.
@@ -25,7 +25,7 @@ When one class is connected to many others, becoming a central point that can ea
 
 ---
 
-### 🛠️ Refactoring Techniques Used
+### Refactoring Techniques Used
 
 - **Extract Method**: Break down long or repetitive code blocks into smaller, reusable methods
 - **Extract Class**: Split large classes with too many responsibilities into smaller, focused ones
