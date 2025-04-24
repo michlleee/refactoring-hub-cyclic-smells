@@ -15,7 +15,7 @@ This repository demonstrates common **object-oriented code smells**—specifical
 ```
 ---
 
-## 🔍 Code Smells Overview
+## Code Smells Overview
 
 ### Cyclically-Deficient Modularization
 When classes depend on each other in a circular way, making the code harder to test and maintain.
