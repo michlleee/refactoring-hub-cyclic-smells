@@ -17,26 +17,26 @@ This repository demonstrates common **object-oriented code smells**—specifical
 
 ## 🔍 Code Smells Overview
 
-### 🔁 Cyclic Dependency
+### Cyclic Dependency
 When classes depend on each other in a circular way, making the code harder to test and maintain.
 
-### 📍 Hub-like Dependency
+### Hub-like Dependency
 When one class is connected to many others, becoming a central point that can easily break the system if changed.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Java (JDK 17 or newer)
 - **Tools:** Any IDE (like IntelliJ IDEA or Eclipse), or command-line
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 You can run the code using an IDE or from the terminal.
 
-### ▶️ Terminal Example
+### Terminal Example
 
 ```bash
 # Go to the refactored solution folder
