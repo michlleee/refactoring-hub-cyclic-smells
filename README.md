@@ -3,6 +3,7 @@
 This repository demonstrates common **object-oriented code smells**—specifically **Hub-like dependencies** and **Cyclic dependencies**—in Java, along with refactored solutions following clean code and design principles.
 
 ## 📁 Structure
+```
 ├── Cyclic/
 │   └── src/
 │       ├── problems/       # Code with cyclic dependencies
@@ -11,7 +12,7 @@ This repository demonstrates common **object-oriented code smells**—specifical
 │   └── src/
 │       ├── problems/       # Code showing hub-like dependency issues
 │       └── solutions/      # Refactored code with better modularity
-
+```
 ---
 
 ## 🔍 Code Smells Overview
