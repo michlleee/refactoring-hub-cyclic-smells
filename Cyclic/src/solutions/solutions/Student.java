@@ -21,4 +21,8 @@ public class Student {
     public void displayStudentInfo() {
         System.out.println("Student Name: " + name + ", ID: " + studentId);
     }
+    
+    public Student getStudent() {
+        return this;
+    }
 }

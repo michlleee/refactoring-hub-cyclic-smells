@@ -21,4 +21,9 @@ public class Course {
     public void displayCourseInfo() {
         System.out.println("Course Name: " + courseName + ", ID: " + courseId);
     }
+
+    public Course getCourse() {
+        return this;
+    }
+
 }
