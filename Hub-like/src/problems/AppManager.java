@@ -1,16 +1,27 @@
 package problems;
 
-public class AppManager { // main hub with a bunch of responsibilities
+public class AppManager {
     private User user;
-    private Product product;
+    private Milk milk;
+    private Coffee coffee;
 
     public AppManager() {
         this.user = new User("John Doe");
-        this.product = new Product("Java Book");
+        this.milk = new Milk("IndoMilk");
+        this.coffee = new Coffee("Kapal Api");
     }
 
     public void displayAllInfo() {
-        user.displayUserInfo();        // depends directly on class User
-        product.displayProductInfo();  // depends directly on class Product
+        user.displayUserInfo();       
+        displayProductBrands();
+    }
+    
+    public void displayProductBrands() {
+    	milk.displayMilkBrand();
+    	coffee.displayCoffeeBrand();
+    }
+
+    public void registerProduct(String productName) {
+        System.out.println("Registered product: " + productName);
     }
 }

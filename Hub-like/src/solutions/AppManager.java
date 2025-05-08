@@ -1,16 +1,19 @@
 package solutions;
 
 public class AppManager {
-    private UserManager userManager;
+	private User user;
     private ProductManager productManager;
 
-    public AppManager(String userName, String productName) {
-        this.userManager = new UserManager(userName);
-        this.productManager = new ProductManager(productName);
+    public AppManager(String userName) {
+        this.user = new User(userName);
     }
 
     public void displayAllInfo() {
-        userManager.displayUserInfo();
-        productManager.displayProductInfo();
+        user.displayUserInfo();
+        productManager.displayProductBrands();
+    }
+    
+    public ProductManager getProductManager() {
+        return productManager;
     }
 }
